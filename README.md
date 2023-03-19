@@ -1,1 +1,1 @@
-# alx-low_level_programming
+gcc -c $CFILE: a script that compiles a C file but does not link.
