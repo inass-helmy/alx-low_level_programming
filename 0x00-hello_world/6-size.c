@@ -3,7 +3,8 @@
 /**
  * main - Entry point
  *
- * Description: prints the size of various types on the computer which compiles and run on
+ * Description: prints the size of various types on the computer which
+ * compiles and run on
  *
  * Return: Always 0 (Success)
  */
