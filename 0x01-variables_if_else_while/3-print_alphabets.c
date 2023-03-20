@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main: entry point
+ * main: print the letters of the alphabet in lowercase then uppercase
  *
- * description: print the letters of the alphabet in lowercase then uppercase in one line
+ * description: print the letters of the alphabet in lowercase then uppercase
  *
  * Return: Always 0 (Success)
  */
