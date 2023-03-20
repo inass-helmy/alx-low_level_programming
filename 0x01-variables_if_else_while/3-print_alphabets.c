@@ -11,10 +11,11 @@
 int main(void)
 {
 	int m, n;
+
 	m = 97;
 	n = 65;
 
-	while (m <123)
+	while (m < 123)
 	{
 		putchar(m);
 		m++;
