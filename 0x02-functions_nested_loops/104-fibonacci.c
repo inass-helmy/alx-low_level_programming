@@ -13,6 +13,7 @@ int main(void)
 	int count;
 	char ch;
 	char line;
+	char space;
 
 	sum = 0;
 	first = 0;
@@ -20,11 +21,12 @@ int main(void)
 	count = 0;
 	ch = 44;
 	line = 10;
+	space = 32;
 
 	while (count < 98)
 	{
 		sum = first + second;
-		_putchar(sum + ch);
+		_putchar(sum + ch + space);
 		first = second;
 		second = sum;
 
