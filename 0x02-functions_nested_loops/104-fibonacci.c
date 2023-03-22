@@ -11,13 +11,13 @@ int main(void)
 {
 	long int first, second, sum;
 	int count;
-	char ch
+	char ch;
 
 	sum = 0;
 	first = 0;
 	second = 1;
 	count = 0;
-	ch = 0x2C
+	ch = 0x2C;
 
 	while (count < 98)
 	{
