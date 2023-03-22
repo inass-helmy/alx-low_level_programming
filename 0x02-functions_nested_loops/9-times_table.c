@@ -10,15 +10,15 @@ void times_table(void)
 {
 	int unites, tens, row, col, product;
 
-	for(row = 0; row <= 9; row++)
+	for (row = 0; row <= 9; row++)
 	{
-		for(col = 0; col <= 9; col++)
+		for (col = 0; col <= 9; col++)
 		{
 			product = row * col;
 			tens = product / 10;
 			unites = product % 10;
 
-			if(col == 0)
+			if (col == 0)
 			{
 				_putchar('0');
 			}
@@ -32,9 +32,9 @@ void times_table(void)
 			else
 			{
 				_putchar(',');
-                                _putchar(' ');
-                                _putchar(tens + '0');
-                                _putchar(unites + '0');
+				_putchar(' ');
+				_putchar(tens + '0');
+				_putchar(unites + '0');
 			}
 		}
 		_putchar('\n');
