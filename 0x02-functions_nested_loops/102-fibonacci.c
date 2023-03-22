@@ -1,26 +1,32 @@
 #include <stdio.h>
 
 /**
- * main - list all the natural numbers below 10
+ * main - prints the first 50 Fibonacci numbers, starting with 1 and 2
  *
  * Return: Always 0
  *
 */
 int main(void)
 {
-	int num, sum;
+	long total, first, second, sum;
 
 	sum = 0;
+	total = 0;
+	first = 0;
+	second = 1;
 
-	for (num = 0; num < 1024; num++)
+	while (sum < 4000000)
 	{
-		if (num % 3 == 0 || num % 5 == 0)
+		sum = first + second;
+		if (sum % 2 == 0)
 		{
-			num += num;
+			total += sum;
 		}
+		first = second;
+		second = sum;
 	}
 
-	printf("%d\n", sum);
+	printf("%li\n", total);
 
 	return (0);
 }
