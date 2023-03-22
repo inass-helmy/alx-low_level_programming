@@ -19,7 +19,7 @@ int main(void)
 	second = 1;
 	count = 0;
 	ch = 0x2C;
-	line = 10
+	line = i10;
 
 	while (count < 98)
 	{
