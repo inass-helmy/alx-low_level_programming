@@ -18,7 +18,7 @@ int main(void)
 	first = 0;
 	second = 1;
 	count = 0;
-	ch = 0x2C;
+	ch = 44;
 	line = 10;
 
 	while (count < 98)
