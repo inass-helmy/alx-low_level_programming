@@ -16,7 +16,7 @@ void times_table(void)
 		{
 			product = row * col;
 			tens = product / 10;
-			unites = product % 0;
+			unites = product % 10;
 
 			if( col == 0 )
 			{
