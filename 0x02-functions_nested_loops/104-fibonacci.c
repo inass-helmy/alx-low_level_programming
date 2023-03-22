@@ -12,12 +12,14 @@ int main(void)
 	long int first, second, sum;
 	int count;
 	char ch;
+	char line;
 
 	sum = 0;
 	first = 0;
 	second = 1;
 	count = 0;
 	ch = 0x2C;
+	line = 10
 
 	while (count < 98)
 	{
@@ -29,7 +31,7 @@ int main(void)
 		count++;
 	}
 	sum = first + second;
-	_putchar(sum + "\n");
+	_putchar(sum + line);
 
 	return (0);
 }
