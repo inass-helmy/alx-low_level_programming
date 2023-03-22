@@ -1,9 +1,8 @@
-checks for lowercase character.#include "main.h"
+#include "main.h"
 
 /**
- * function print_alphabet_x10
- *
- * Description:  checks for lowercase character
+ * _islower - checks for lowercase character
+ * @c: c is an integer
  *
  * Return:  1 if c is lowercase and 0 otherwise
  *

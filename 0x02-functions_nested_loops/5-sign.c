@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * function print_sign
- *
- * Description: checks for lowercase character
+ * print_sign - checks for lowercase character
+ * @n: n is an integer
  *
  * Return: 1 and prints + if n is greater than zero
  * 0 and prints 0 if n is zero
