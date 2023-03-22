@@ -11,16 +11,18 @@ int main(void)
 {
 	long int first, second, sum;
 	int count;
+	char ch
 
 	sum = 0;
 	first = 0;
 	second = 1;
 	count = 0;
+	ch = 0x2C
 
 	while (count < 98)
 	{
 		sum = first + second;
-		_putchar(sum + ", ");
+		_putchar(sum + ch);
 		first = second;
 		second = sum;
 
