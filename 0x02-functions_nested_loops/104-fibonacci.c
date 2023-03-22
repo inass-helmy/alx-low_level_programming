@@ -20,14 +20,14 @@ int main(void)
 	while (count < 98)
 	{
 		sum = first + second;
-		_putchar("%li, " +  sum);
+		_putchar(sum + ", ");
 		first = second;
 		second = sum;
 
 		count++;
 	}
 	sum = first + second;
-	_putchar("%li\n" + sum);
+	_putchar(sum + "\n");
 
 	return (0);
 }
