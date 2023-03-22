@@ -1,9 +1,9 @@
-checks for lowercase character.#include "main.h"
+#include "main.h"
 
 /**
  * function _isalpha
  *
- * Description: checks for alphabetic character
+ * Description: checks for lowercase character
  *
  * Return:  1 if c is lowercase or uppercase and 0 otherwise
  *
