@@ -8,25 +8,25 @@
 */
 int main(void)
 {
-	long int first, second, sum;
-	int count;
+	long total, first, second, sum;
 
 	sum = 0;
+	total = 0;
 	first = 0;
 	second = 1;
-	count = 0;
 
-	while (count < 49)
+	while (sum < 4000000)
 	{
 		sum = first + second;
-		printf("%li, ", sum);
+		if (sum % 2 == 0)
+		{
+			total += sum;
+		}
 		first = second;
 		second = sum;
-
-		count++;
 	}
-	sum = first + second
-	printf("%li\n", sum);
+
+	printf("%li\n", total);
 
 	return (0);
 }
